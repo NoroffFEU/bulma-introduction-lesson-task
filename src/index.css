@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar,
+.footer {
+  background-color: #3273dc;
+  color: white;
+}
+
+.buttons > .button.is-text {
+  color: white;
+  text-decoration: none;
+}
+
+.buttons > .button.is-text:hover,
+.buttons > .button.is-text:focus {
+  background-color: inherit;
+}
+
+.hero.is-medium,
+.content-cards {
+  background-color: #b4c6f0;
+  color: white;
+}
